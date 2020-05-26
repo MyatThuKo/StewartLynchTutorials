@@ -13,6 +13,9 @@
 		E2100CF4247D93CC002F7BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2100CF3247D93CC002F7BF8 /* Assets.xcassets */; };
 		E2100CF7247D93CC002F7BF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2100CF6247D93CC002F7BF8 /* Preview Assets.xcassets */; };
 		E2100CFA247D93CC002F7BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2100CF8247D93CC002F7BF8 /* LaunchScreen.storyboard */; };
+		E2100D04247D9434002F7BF8 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2100D03247D9434002F7BF8 /* UserInfo.swift */; };
+		E2100D06247D94E1002F7BF8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2100D05247D94E1002F7BF8 /* HomeView.swift */; };
+		E2100D08247D9573002F7BF8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2100D07247D9573002F7BF8 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E2100CF6247D93CC002F7BF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2100CF9247D93CC002F7BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2100CFB247D93CC002F7BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2100D03247D9434002F7BF8 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		E2100D05247D94E1002F7BF8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E2100D07247D9573002F7BF8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				E2100CF8247D93CC002F7BF8 /* LaunchScreen.storyboard */,
 				E2100CFB247D93CC002F7BF8 /* Info.plist */,
 				E2100CF5247D93CC002F7BF8 /* Preview Content */,
+				E2100D03247D9434002F7BF8 /* UserInfo.swift */,
+				E2100D05247D94E1002F7BF8 /* HomeView.swift */,
+				E2100D07247D9573002F7BF8 /* LoginView.swift */,
 			);
 			path = "Firebase Login";
 			sourceTree = "<group>";
@@ -146,8 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2100D08247D9573002F7BF8 /* LoginView.swift in Sources */,
+				E2100D04247D9434002F7BF8 /* UserInfo.swift in Sources */,
 				E2100CEE247D93CC002F7BF8 /* AppDelegate.swift in Sources */,
 				E2100CF0247D93CC002F7BF8 /* SceneDelegate.swift in Sources */,
+				E2100D06247D94E1002F7BF8 /* HomeView.swift in Sources */,
 				E2100CF2247D93CC002F7BF8 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
