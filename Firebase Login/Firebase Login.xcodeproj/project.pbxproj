@@ -20,6 +20,7 @@
 		E2100D12247DA01F002F7BF8 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2100D0F247DA01F002F7BF8 /* SignUpView.swift */; };
 		E2100D13247DA01F002F7BF8 /* SignInWithEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2100D10247DA01F002F7BF8 /* SignInWithEmailView.swift */; };
 		E2100D14247DA01F002F7BF8 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2100D11247DA01F002F7BF8 /* ForgotPasswordView.swift */; };
+		E2100D16247DA3D8002F7BF8 /* SignInWithAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2100D15247DA3D8002F7BF8 /* SignInWithAppleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E2100D0F247DA01F002F7BF8 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		E2100D10247DA01F002F7BF8 /* SignInWithEmailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithEmailView.swift; sourceTree = "<group>"; };
 		E2100D11247DA01F002F7BF8 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		E2100D15247DA3D8002F7BF8 /* SignInWithAppleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithAppleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				E2100D07247D9573002F7BF8 /* LoginView.swift */,
+				E2100D15247DA3D8002F7BF8 /* SignInWithAppleView.swift */,
 				E2100D11247DA01F002F7BF8 /* ForgotPasswordView.swift */,
 				E2100D10247DA01F002F7BF8 /* SignInWithEmailView.swift */,
 				E2100D0F247DA01F002F7BF8 /* SignUpView.swift */,
@@ -204,6 +207,7 @@
 				E2100D04247D9434002F7BF8 /* UserInfo.swift in Sources */,
 				E2100CEE247D93CC002F7BF8 /* AppDelegate.swift in Sources */,
 				E2100CF0247D93CC002F7BF8 /* SceneDelegate.swift in Sources */,
+				E2100D16247DA3D8002F7BF8 /* SignInWithAppleView.swift in Sources */,
 				E2100D12247DA01F002F7BF8 /* SignUpView.swift in Sources */,
 				E2100D06247D94E1002F7BF8 /* HomeView.swift in Sources */,
 				E2100D0A247D9F61002F7BF8 /* UserViewModel.swift in Sources */,
